@@ -3,16 +3,51 @@
 body {
     font-family: 'Karla', sans-serif;
     margin: 0;
+    background: #1F2937;
+}
+
+.hero{
     text-align: center;
 }
 
+.text-light{
+    color: #D5D4D8;
+}
+.text-accent{
+    color: #4ADF86;
+}
+.text-white{
+    color: #fff;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+}
 .password-section{
     display: flex;
-    justify-content: space-around
+    justify-content: center;
+   
+}
+
+.line{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .pass{
     width: 211px;
     height: 39px;
     background: #273549;
     border-radius: 6px;
+    margin: 5px;
+    padding: 1px 5px;
+}
+.line{
+    height: 1px;
+    background: black;
+}
+button{
+    background:#10B981;
+    border: none;
+    border-radius: 5px;
+    padding :10px;
 }
