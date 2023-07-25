@@ -1,0 +1,71 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #ECFDF5;
+
+}
+
+/* ======
+ TYPOGRAPHY 
+ ====== */
+ h1,h3{
+  margin: 0;
+ }
+
+ h1{
+  font-size: 2rem;
+ }
+.text-light{
+  color:lightsalmon;
+}
+
+.subtitle{
+  font-weight: 400;
+  color: #707070;
+ margin-bottom: 3rem; 
+}
+
+
+
+/* ======
+LAYOUT
+======= */
+
+.container{
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+}
+.heading{
+  flex-direction: column;
+  padding: 0;
+}
+.password{
+  border-top: 1px solid #707070;
+  margin-top: 1em;
+  padding: 2em 0;
+  justify-content: space-between;
+}
+
+/* BUTTON */
+.btn{
+  color:#fff;
+  background-color: lightsalmon;
+  font-family: 'Poppins', sans-serif;
+  padding: .45em 1em;
+  border: none;
+  border-radius: 10px;
+}
+
+.password-result{
+  background: #273549;
+  color: lightcoral;
+  width: 210px;
+  height: 30px;
+  border-radius: 10px;
+  padding: .2em .5em;
+  text-align: center;
+}
