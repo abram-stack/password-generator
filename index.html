@@ -20,10 +20,17 @@
       </div>
       <h3 class="subtitle">Never use an insecure password again</h3>
 
-      <button class="btn" id="generate-btn" onclick="generatePassword()"
-        >Generate Passwords</button
-      >
+      <div class="password-info flex">
+        <div class="password-info--input flex">
+          <label for="length">Length: </label>
+          <input type="text" id="length" placeholder="Max of 15" />
+        </div>
+        <button class="btn" id="generate-btn" onclick="renderPass()"
+          >Generate Passwords</button
+        >
+      </div>
 
+      <h3 id="warning">Password:</h3>
       <div class="password flex">
         <div class="password-result" id="pass-1"></div>
         <div class="password-result" id="pass-2"></div>

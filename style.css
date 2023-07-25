@@ -22,9 +22,11 @@ body{
 .subtitle{
   font-weight: 400;
   color: #707070;
- margin-bottom: 3rem; 
+  margin-bottom: 1.5em; 
 }
-
+#warning{
+  text-align: center;
+}
 
 
 /* ======
@@ -49,6 +51,15 @@ LAYOUT
   padding: 2em 0;
   justify-content: space-between;
 }
+.password-info{
+  margin-bottom: 2em;
+  gap: 1em;
+  flex-direction: column;
+}
+.password-info--input{
+  gap: 1em;
+}
+
 
 /* BUTTON */
 .btn{
